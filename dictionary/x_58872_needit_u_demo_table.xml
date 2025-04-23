@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="09110801533c6a1029af38e0a0490e18" label="Demo Table" max_length="40" name="x_58872_needit_u_demo_table" type="collection">
+        <element label="Field 1" max_length="100" name="field_1" type="string"/>
+        <element label="Filed 3" max_length="100" name="filed_3" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Field 2" max_length="100" name="field_2" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>
